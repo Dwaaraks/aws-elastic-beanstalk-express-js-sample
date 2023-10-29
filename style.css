@@ -3,6 +3,8 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   text-align: center;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
 
 .container {
@@ -10,16 +12,19 @@ body {
   border-radius: 8px;
   padding: 20px;
   margin: 100px auto;
-  width: 60%;
+  max-width: 600px; /* Limit the maximum width of the container */
   box-shadow: 0px 0px 10px #888888;
 }
 
 h1 {
   color: #333;
+  font-size: 28px; /* Increase the font size of the header */
+  margin-bottom: 20px; /* Add some space below the header */
 }
 
 p {
   color: #666;
   font-size: 18px;
+  line-height: 1.5; /* Adjust line height for better readability */
 }
 
